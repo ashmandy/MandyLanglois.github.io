@@ -108,7 +108,7 @@
 										<h2><a href="https://github.com/ashmandy/citi_bikes_SQL-exploritory-analysis-" target="_blank" rel="noopener">Citi Bike NYC<br />Trip Analysis</a></h2>
 									</header>
 									<a href="https://github.com/ashmandy/citi_bikes_SQL-exploritory-analysis-" target="_blank" rel="noopener" class="image fit"><img src="images/ninth-ave-electrified-bike-station.jpg" alt="Citi Bike docking station on Ninth Avenue in New York" width="900" height="600" loading="lazy" /></a>
-									<p>Explored 2.12M Citi Bike trips in MySQL to find where demand concentrates and where the network falls behind it. Demand peaks at 5 PM (185,704 trips), the window when bike shortages are most likely. Of 2,100 stations, 13 lose 200+ more bikes than they receive, so I delivered rebalancing recommendations to close those distribution gaps. Casual users also make 3x more round trips than subscribers, a distinct segment worth targeting for growth.</p>
+									<p>I dug into 2.12 million Citi Bike trips in MySQL to see where demand piles up and where the network falls behind. The rush hits at 5 PM (185,704 trips), and 13 of 2,100 stations lose 200+ more bikes than they take in, so I made rebalancing recommendations to fix those gaps. I also found that casual riders make 3x more round trips than subscribers, a group with real room to grow.</p>
 									<p><strong>Tools:</strong> MySQL (CTEs, window functions, aggregates)</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ashmandy/citi_bikes_SQL-exploritory-analysis-" target="_blank" rel="noopener" class="button">GitHub</a></li>
@@ -122,7 +122,7 @@
 									</header>
 									<!-- Thumbnail served by Tableau Public; hides itself if it fails to load. To use your own screenshot instead, save it as images/ed-dashboard.jpg and change the src. -->
 									<a href="https://public.tableau.com/views/EDDashboard_17766590402760/EDDashboard?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link" target="_blank" rel="noopener" class="image fit"><img src="https://public.tableau.com/static/images/ED/EDDashboard_17766590402760/EDDashboard/1.png" alt="Tableau dashboard of emergency department patient flow, wait times and satisfaction" loading="lazy" onerror="this.parentNode.style.display='none'" /></a>
-									<p>Analyzed 9,216 emergency department encounters (April 2019 to October 2020) in Tableau. The average wait held at 35 minutes across departments, age groups, days, and hours, and it had no measurable effect on satisfaction (r = &minus;0.02 across 2,517 rated visits). The group that stood out was patients 66+, who rated their visits lowest (4.72 vs 5.05 for everyone else), pointing to experience factors beyond speed. General Practice and Orthopedics accounted for 74% of department referrals, a direct input for capacity planning.</p>
+									<p>I built a Tableau dashboard on 9,216 ER visits (April 2019 to October 2020) to see what shapes the patient experience. Wait time held steady at about 35 minutes and had no real effect on satisfaction (r = −0.02 across 2,517 rated visits). The group that stood out was patients 66+, who rated their visits lowest (4.72 vs 5.05), so speed isn’t the whole story. General Practice and Orthopedics also handled 74% of referrals, a clear signal for capacity planning.</p>
 									<p><strong>Tools:</strong> Tableau (dashboards, filters, parameters, KPI tracking), Kaggel datasets</p>
 									<ul class="actions special">
 										<li><a href="https://public.tableau.com/views/EDDashboard_17766590402760/EDDashboard?:language=en-US&amp;:display_count=n&amp;:origin=viz_share_link" target="_blank" rel="noopener" class="button">Open dashboard</a></li>
@@ -135,7 +135,7 @@
 										<h2><a href="https://github.com/ashmandy/Insurance-Analysis-R" target="_blank" rel="noopener">Medical Insurance<br />Charge Analysis</a></h2>
 									</header>
 									<a href="https://github.com/ashmandy/Insurance-Analysis-R" target="_blank" rel="noopener" class="image fit"><img src="images/healthinsurance.jpg" alt="Health insurance claim form and stethoscope" width="800" height="533" loading="lazy" /></a>
-									<p>Modeled what drives medical insurance charges across 1,338 policyholders. Smoking status is the dominant driver, adding roughly $21,000 to expected charges, and its effect grows at higher BMI. A multiple linear regression with a BMI &times; smoking interaction reached an R&sup2; of 0.81 (RMSE $5,100); the interaction term alone cut prediction error by $1,208. I also built a 4-tier risk segmentation in which the high-risk group costs 5.2x more than standard policyholders.</p>
+									<p>Modeled insurance charges for 1,338 policyholders in R to find what drives cost. Smoking came out on top, adding about $21,000 to expected charges, with an even bigger effect at higher BMI. My regression explained 81% of the variation (R² = 0.81, RMSE $5,100), and modeling BMI and smoking together cut prediction error by $1,208. Across 4 risk tiers, the top tier costs 5.2x more than standard policyholders.</p>
 									<p><strong>Tools:</strong> R (regression, correlation analysis, ggplot2)</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ashmandy/Insurance-Analysis-R" target="_blank" rel="noopener" class="button"> GitHub</a></li>
@@ -148,7 +148,7 @@
 										<h2><a href="https://github.com/ashmandy/Bike-Sales-Financial-Overview---Excel-" target="_blank" rel="noopener">Bike Sales<br />Financial Dashboard</a></h2>
 									</header>
 									<a href="https://github.com/ashmandy/Bike-Sales-Financial-Overview---Excel-" target="_blank" rel="noopener" class="image fit"><img src="images/bike_sales_ dashboard_image.png" alt="Excel dashboard showing bike sales revenue, profit by category and quarterly margin" width="1216" height="1054" loading="lazy" /></a>
-									<p>Built an interactive Excel dashboard on $84.8M in bike sales revenue across 6 countries (2015 to 2016) to show where profit was won and lost by product category and geography. The headline: a $1.07M year-over-year profit decline in the Bikes category drove an overall $495K profit decrease. Quarterly operating margin swung 18 points, from a 33% low to a 51% peak.</p>
+									<p>I wanted to find out where a bike company was winning and losing money, so I built an interactive Excel dashboard on $84.8M in sales across 6 countries from 2011 to 2016. Comparing 2015 to 2016, the story came down to one category: Bikes profit fell $1.07M, enough to pull overall profit down $495K even though Accessories and Clothing grew. Australia took the biggest hit by country, dropping $588K. I also tracked operating margin by quarter, and it climbed from 32% in the early years to a 51% peak.</p>
 									<p><strong>Tools:</strong> Excel (pivot tables, data cleaning, dashboard)</p>
 									<ul class="actions special">
 										<li><a href="https://1drv.ms/x/c/e09ce514cda8581a/IQBJTt7uqfF7SZURiqYbnJMgAV0MMr7teJwQmrkMnwkOYxE?e=3BhHkh" target="_blank" rel="noopener" class="button">Open dashboard</a></li>
@@ -162,7 +162,7 @@
 										<h2><a href="https://github.com/ashmandy/Southern-Life-History-Project-" target="_blank" rel="noopener">Southern Life Histories<br />Text Analysis</a></h2>
 									</header>
 									<a href="https://github.com/ashmandy/Southern-Life-History-Project-" target="_blank" rel="noopener" class="image fit"><img src="images/SLH.webp" alt="Southern Life Histories project word visualization" width="500" height="384" loading="lazy" /></a>
-									<p>A mixed-methods research project combining computational text analysis, data visualization, and qualitative narrative analysis to explore gendered patterns in how socioeconomic status related to education in the Southern Life Histories collection. It's the project where my Global Studies background and my data work meet: numbers that only make sense with the human context around them.</p>
+									<p>This project was conducted as part of a Course-based Undergraduate Research Experience (CURE) at the University of North Carolina at Chapel Hill. Using R, I combined text analysis, data visualization, and close reading of the Southern Life Histories collection to see how socioeconomic status and education connected for men and women in the South during the great depression. The text analysis showed me patterns across hundreds of pages, and the personal stories explained why those patterns existed. The data highlighted the patterns, and the personal narratives explained them.</p>
 									<p><strong>Tools:</strong> R Markdown (text mining, visualization)</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/ashmandy/Southern-Life-History-Project-" target="_blank" rel="noopener" class="button">GitHub</a></li>
